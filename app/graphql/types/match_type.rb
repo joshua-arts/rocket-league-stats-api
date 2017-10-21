@@ -9,16 +9,10 @@ Types::MatchType = GraphQL::ObjectType.define do
   field :map, !types.String, property: :Map
   field :result, !types.String, property: :Result
 
-  # Get both the team objects from the game.
-  # TODO: use the data in obj to build some sort of
-  # TeamGameType which represents a team over on match.
-  
-  #field :teams, types[Types::TeamType] do
-  #  resolve -> (obj, args, ctx) {
-
-  #  }
-  #end
-
+# Turns out the database doesn't have unique keys for each row.
+# Thus, we can't batch our queries using graphql-batch...
+# So for now, just going to leave this out.
+=begin
   # Get all the player objects from the game.
   field :players, types[Types::GameType] do
     resolve -> (obj, args, ctx) {
@@ -34,5 +28,6 @@ Types::MatchType = GraphQL::ObjectType.define do
       )}
     }
   end
+=end
 
 end
