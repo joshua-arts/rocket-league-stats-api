@@ -58,6 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use a GraphQL interface for the API.
 gem 'graphql'
 gem 'graphiql-rails'
+gem 'graphql-batch'
 
 # For accessing the remote MySQL database.
 gem 'mysql2'

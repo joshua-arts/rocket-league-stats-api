@@ -4,4 +4,5 @@ RocketApiSchema = GraphQL::Schema.define do
   resolve_type ->(type, obj, ctx) do
   end
 
+  use GraphQL::Batch
 end
