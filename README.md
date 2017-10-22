@@ -42,25 +42,25 @@ Try some of these queries [here!](https://rocket-league-esports-api.herokuapp.co
 View total score, goals, assits, saves and shots for each time in season 4 NA League Play.
 ~~~
 {
-	teams(season: 4, stage: NA_LEAGUE_PLAY){
-		team
-    	score
-    	goals
-    	assists
-    	saves
-    	shots
-  	}
+  teams(season: 4, stage: NA_LEAGUE_PLAY){
+    team
+    score
+    goals
+    assists
+    saves
+    shots
+  }
 }
 ~~~
 
 View goals scored by NRG eSports at each LAN they've attended.
 ~~~
 {
-	teams(team: "NRG eSports", stage: LAN){
-		team
-    	stage
-    	season
-    	goals
+  teams(team: "NRG eSports", stage: LAN){
+    team
+    stage
+    season
+    goals
 	}
 }
 ~~~
@@ -68,10 +68,10 @@ View goals scored by NRG eSports at each LAN they've attended.
 View total saves and shots for each player on NRG eSports in season 4 NA League Play.
 ~~~
 {
-	players(team: "NRG eSports", season: 4, stage: NA_LEAGUE_PLAY){
-		player
-		saves
-   		shots
+  players(team: "NRG eSports", season: 4, stage: NA_LEAGUE_PLAY){
+    player
+    saves
+    shots
 	}
 }
 ~~~
@@ -79,41 +79,41 @@ View total saves and shots for each player on NRG eSports in season 4 NA League 
 View total goals and shots for Jacob across the various stages in season 4.
 ~~~
 {
-	players(player: "Jacob", season: 4){
-    	stage
-		goals
-    	shots
-	}
+  players(player: "Jacob", season: 4){
+    stage
+    goals
+    shots
+  }
 }
 ~~~
 
 View matches in season 4 between NRG eSports and Cloud9 and show date, map, game number, result and goals by player.
 ~~~
 {
-	matches(team: "NRG eSports", vs: "Cloud9", season: 4){
-    	date
-    	map
-    	game
-    	result
-    	players {
-        	player
-            goals
-        }
+  matches(team: "NRG eSports", vs: "Cloud9", season: 4){
+    date
+    map
+    game
+    result
+    players {
+      player
+      goals
     }
+  }
 }
 ~~~
 
 View games Jacob participated in during season 4, and how many goals he got.
 ~~~
 {
-	games(player: "Jacob", season: 4){
-    	date
-    	map
-    	game
-    	vs
-    	result
-    	goals
-    }
+  games(player: "Jacob", season: 4){
+    date
+    map
+    game
+    vs
+    result
+    goals
+  }
 }
 ~~~
 
