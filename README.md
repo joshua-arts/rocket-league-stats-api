@@ -30,7 +30,7 @@ Here are the fields that you can ask for:
 | Team   | all arguments + score, goals, assists, saves, shots |
 | Player | all arguments + score, goals, assists, saves, shots |
 | Match  | all arguments + players |
-| Game   | all arguments + + score, goals, assists, saves, shots |
+| Game   | all arguments + score, goals, assists, saves, shots |
 
 Stage is the only enum property. The following values are valid for stage:
 `NA_LEAGUE_PLAY`, `EU_LEAGUE_PLAY`, `NA_PLAYOFFS`, `EU_PLAYOFFS`, `NA_OVERALL`, `EU_OVERALL`, `LAN`.
