@@ -1,6 +1,6 @@
 # Rocket League eSports API
 
-The Rocket League eSports API is an easy to use API that implements a [GraphQL](http://graphql.org/learn/) interface for retrieving data from the parallel.gg database. Currently it supports data from each of the [RLCS](https://www.rlcs.gg/) seasons.
+The Rocket League eSports API is an easy to use API that implements a [GraphQL](http://graphql.org/learn/) interface for retrieving data from the parallel.gg database. Currently it supports data from each of the [RLCS](https://www.rlcs.gg/) seasons. I originally built it in order to get more familiar with GraphQL.
 
 You can play around with the API at [here](https://rocket-league-esports-api.herokuapp.com/graphiql). If you want to use it in your apps, you can make POST requests to the endpoint at:
 https://rocket-league-esports-api.herokuapp.com/graphql
@@ -119,6 +119,6 @@ View games Jacob participated in during season 4, and how many goals he got.
 
 ## Contributing
 
-If you'd like to contribute to the API, feel free to reach out or just go ahead and mark a pull request!
+If you'd like to contribute to the API, feel free to reach out or just go ahead and make a pull request!
 
 Special thanks to [Slokh](https://twitter.com/Slokh_) for maintaining the database that this API uses and for allowing me access!
