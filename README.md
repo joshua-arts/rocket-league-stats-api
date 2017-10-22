@@ -1,6 +1,6 @@
-# Rocket League eSports API
+# Rocket League Competitive API
 
-The Rocket League eSports API is an easy to use API that implements a [GraphQL](http://graphql.org/learn/) interface for retrieving data from the parallel.gg database. Currently it supports data from each of the [RLCS](https://www.rlcs.gg/) seasons. I originally built it in order to get more familiar with GraphQL.
+The Rocket League Competitive API is an easy to use API that implements a [GraphQL](http://graphql.org/learn/) interface for retrieving data from the parallel.gg database. Currently it supports data from each of the [RLCS](https://www.rlcs.gg/) seasons. I originally built it in order to get more familiar with GraphQL.
 
 You can play around with the API [here](https://rocket-league-esports-api.herokuapp.com/graphiql). If you want to use it in your apps, you can make POST requests to the endpoint at:
 https://rocket-league-esports-api.herokuapp.com/graphql
