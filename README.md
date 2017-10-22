@@ -61,7 +61,7 @@ View goals scored by NRG eSports at each LAN they've attended.
     stage
     season
     goals
-	}
+  }
 }
 ~~~
 
@@ -72,7 +72,7 @@ View total saves and shots for each player on NRG eSports in season 4 NA League 
     player
     saves
     shots
-	}
+  }
 }
 ~~~
 
