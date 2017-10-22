@@ -39,7 +39,7 @@ Stage is the only enum property. The following values are valid for stage:
 
 Try some of these queries [here!](https://rocket-league-esports-api.herokuapp.com/graphiql)
 
-View total score, goals, assits, saves and shots for each time in season 4 NA League Play.
+View total score, goals, assists, saves and shots for each time in season 4 NA League Play.
 ~~~
 {
   teams(season: 4, stage: NA_LEAGUE_PLAY){
